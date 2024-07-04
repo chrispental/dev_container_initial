@@ -1,0 +1,15 @@
+{
+    "name": "Ollama Proving Grounds",
+    "dockerFile": "Dockerfile",
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/poetry:2": {},
+    },
+    // "postCreateCommand": "poetry install --with dev && poetry run pre-commit install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
